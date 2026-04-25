@@ -1,4 +1,0 @@
-# ninja log v5
-0	6060	1740110405745307260	/home/data4/zar24/code/RSPrompter/mmdet/ops/build/temp.linux-x86_64-3.10/home/data4/zar24/code/RSPrompter/mmdet/ops/src/cpu/ms_deform_attn_cpu.o	4004860b9a640e52
-1	18725	1740110418405364731	/home/data4/zar24/code/RSPrompter/mmdet/ops/build/temp.linux-x86_64-3.10/home/data4/zar24/code/RSPrompter/mmdet/ops/src/vision.o	f2d936ea6ba47883
-0	19567	1740110419245368529	/home/data4/zar24/code/RSPrompter/mmdet/ops/build/temp.linux-x86_64-3.10/home/data4/zar24/code/RSPrompter/mmdet/ops/src/cuda/ms_deform_attn_cuda.o	9a7a0b0360009e88
