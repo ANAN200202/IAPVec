@@ -46,3 +46,4 @@ bash ./tools/dist_test.sh configs/rsprompter/iapvec_cascade-capcad-peft-512.py $
 ```
 
 ### Postprocessing
+Set `post_process` in config file to `**True**` when using postprocessing. 
