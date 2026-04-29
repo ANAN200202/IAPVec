@@ -26,8 +26,10 @@ Some parameters in config file need to be modified according to the actual envir
 # Model training
 ### Single card training
 ```python
-   python tools/train.py configs/iapvec/iapvec_cascade-capcad-peft-512.py
+python tools/train.py configs/iapvec/iapvec_cascade-capcad-peft-512.py
 ```
 
 ### Multi-card training
-```bash ./tools/dist_train.sh configs/rsprompter/xxx.py ${GPU_NUM}```
+```python
+bash ./tools/dist_train.sh configs/rsprompter/xxx.py ${GPU_NUM}
+```
