@@ -31,15 +31,18 @@ python tools/train.py configs/iapvec/iapvec_cascade-capcad-peft-512.py
 
 ### Multi-card training
 ```python
-bash ./tools/dist_train.sh configs/rsprompter/xxx.py ${GPU_NUM}
+bash ./tools/dist_train.sh configs/rsprompter/iapvec_cascade-capcad-peft-512.py ${GPU_NUM}
 ```
 
 # Model testing
 ### Single card testing
 ```python
-python tools/test.py configs/rsprompter/xxx.py ${CHECKPOINT_FILE}
+python tools/test.py configs/rsprompter/iapvec_cascade-capcad-peft-512.py ${CHECKPOINT_FILE}
 ```
 
 ### Multi-card testing
 ```python
-bash ./tools/dist_test.sh configs/rsprompter/xxx.py ${CHECKPOINT_FILE} ${GPU_NUM}
+bash ./tools/dist_test.sh configs/rsprompter/iapvec_cascade-capcad-peft-512.py ${CHECKPOINT_FILE} ${GPU_NUM}
+```
+
+### Postprocessing
