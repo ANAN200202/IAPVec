@@ -24,4 +24,8 @@ Some parameters in config file need to be modified according to the actual envir
 `data_root`: The absolute path of the dataset.
 
 # Model training
+### Single card training
+```python tools/train.py configs/iapvec/iapvec_cascade-capcad-peft-512.py```
 
+### Multi-card training
+```bash ./tools/dist_train.sh configs/rsprompter/xxx.py ${GPU_NUM}```
