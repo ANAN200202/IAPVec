@@ -3,7 +3,7 @@ This is an official implementation of Towards Individual Agricultural Parcel Vec
 
 # Installation
 ### Environment
-Environment reference：https://github.com/KyanChen/RSPrompter#installation
+Environment reference：[install](https://github.com/KyanChen/RSPrompter#installation)
 
 ### SAM pretrain weight
 The model is based on Segment Anything Model (SAM), and the pretrain weight of SAM should be placed in pretrained/sam-base.
@@ -46,4 +46,7 @@ bash ./tools/dist_test.sh configs/rsprompter/iapvec_cascade-capcad-peft-512.py $
 ```
 
 ### Postprocessing
-Set `post_process` in config file to `**True**` when using postprocessing. 
+Set `post_process` in config file to **True** when using postprocessing. 
+
+# Acknowledgement
+This project is developed based on the [RSPrompter](https://github.com/KyanChen/RSPrompter) and [MMDetection](https://github.com/open-mmlab/mmdetection). Thanks to the developers of these projects.
