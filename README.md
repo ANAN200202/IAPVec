@@ -33,3 +33,13 @@ python tools/train.py configs/iapvec/iapvec_cascade-capcad-peft-512.py
 ```python
 bash ./tools/dist_train.sh configs/rsprompter/xxx.py ${GPU_NUM}
 ```
+
+# Model testing
+### Single card testing
+```python
+python tools/test.py configs/rsprompter/xxx.py ${CHECKPOINT_FILE}
+```
+
+### Multi-card testing
+```python
+bash ./tools/dist_test.sh configs/rsprompter/xxx.py ${CHECKPOINT_FILE} ${GPU_NUM}
