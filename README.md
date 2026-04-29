@@ -2,9 +2,9 @@
 This is an official implementation of Towards Individual Agricultural Parcel Vectorization from VHR Imagery: A Coarse-to-Fine and Multi-task learning method. 
 
 # Installation
+### Environment
 Environment reference：https://github.com/KyanChen/RSPrompter#installation
 
-# Model training
 ### SAM pretrain weight
 The model is based on Segment Anything Model (SAM), and the pretrain weight of SAM should be placed in pretrained/sam-base.
 
@@ -22,3 +22,6 @@ Some parameters in config file need to be modified according to the actual envir
 `code_root`: The absolute path of the project.
 
 `data_root`: The absolute path of the dataset.
+
+# Model training
+
